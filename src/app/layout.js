@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'The-Fitness-Hub',
+  title: 'The-Fitness-Spot',
   description: 'This is a GYM website built using Next JS and Tailwing CSS',
 }
 
