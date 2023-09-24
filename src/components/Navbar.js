@@ -9,7 +9,6 @@ import { GiWeightLiftingUp } from "react-icons/gi";
 
 export default function Navbar() {
   const currentRoute = usePathname();
-  // console.log(currentRoute,"This is current route");
 
   const current = "text-red-500 font-bold"
 
