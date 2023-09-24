@@ -11,7 +11,7 @@ export default function page() {
   return (
     <div>
         <About/>
-        <div className='about-images flex flex-wrap gap-6'>
+        <div className='about-images flex flex-wrap gap-6 justify-center'>
           <Image src={img1} alt='imagee' className=' w-[30%] about-gallary' />
           <Image src={img2} alt='imagee' className=' w-[30%] about-gallary'/>
           <Image src={img3} alt='imagee' className=' w-[30%] about-gallary'/>

@@ -1,11 +1,14 @@
 import React from "react";
 import { FiInstagram, FiYoutube, FiFacebook } from "react-icons/fi";
+import { GiWeightLiftingUp } from "react-icons/gi";
 
 export default function Footer() {
   return (
     <div className=" footer flex justify-evenly items-center px-5 py-10 mt-5 bg-white text-black flex-wrap">
-      <div className=" flex flex-col gap-5 w-[50%] footercont items-center justify-center">
-        <h1>Gym</h1>
+      <div className="flex flex-col gap-5 w-[50%] footercont">
+      <h3 className="flex gap-2 font-bold text-2xl text-red-500 items-center ">
+          Fitness-Spot <GiWeightLiftingUp />
+        </h3>
         <p>
           Take your health and body to the next level with our comprehensive
           program designed to help you reach your fitness goals.

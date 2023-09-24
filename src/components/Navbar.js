@@ -21,8 +21,8 @@ export default function Navbar() {
   return (
     <div className=" z-50 min-h-[81px] fixed top-0 flex justify-between items-center px-5 py-4 w-full bg-black text-white ">
       <div>
-        <h3 className="flex gap-2 items-center justify-center">
-          GYM <GiWeightLiftingUp />
+        <h3 className="flex gap-2 font-bold text-2xl text-red-500 items-center justify-center">
+          Fitness-Spot <GiWeightLiftingUp />
         </h3>
       </div>
       <div>
